@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Lab6Part1';
+  parent1 = false;
+  parent2 = false;
+
+  // tslint:disable-next-line:typedef
+  show1() {
+    this.parent1 = !this.parent1;
+  }
+
+  // tslint:disable-next-line:typedef
+  show2() {
+    this.parent2 = !this.parent2;
+  }
 }
